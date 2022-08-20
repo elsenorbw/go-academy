@@ -29,7 +29,6 @@ func string_functions() {
 	fmt.Printf("s1 - using string() yields %v, %T\n", s1, s1)
 	s2 := fmt.Sprintf("%v", a)
 	fmt.Printf("s2 - using Fmt.Sprintf yields %v, %T\n", s2, s2)
-
 }
 
 func main() {
