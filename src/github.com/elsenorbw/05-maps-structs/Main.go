@@ -23,8 +23,8 @@ type Bird struct {
 }
 
 type Something struct {
-	Name   string `required max:"100"`
-	Origin string `optional`
+	Name   string `required:"true" max:"100"`
+	Origin string `required:"false"`
 }
 
 func tags() {
